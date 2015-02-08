@@ -25,10 +25,10 @@ class Paddle2 {
   void move() {
     // Paddle 2
     if (key == 'w') {
-      yourPaddle.Paddle2_y-=3;
+      yourPaddle.Paddle2_y-=1.5;
     }
     if (key == 's') {
-      yourPaddle.Paddle2_y+=3;
+      yourPaddle.Paddle2_y+=1.5;
     }
 
 

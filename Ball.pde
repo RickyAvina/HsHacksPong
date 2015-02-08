@@ -46,6 +46,10 @@ class Ball {
         xspeed*=-1;
       }
     }
+    
+    if(xpos < 100){
+      xspeed*=-1;
+    }
   }
 }
 
